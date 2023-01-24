@@ -1,1 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: block;
+}
+
+.container{
+    display: block;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container .slide1, .slide2, .slide3, .slide4, .slide5{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container section{
+    padding: 40px 50px;
+}
+
+/* first */
+
+.container .slide1{
+    background-image: url("https://wallpaperaccess.com/full/4410443.jpg");
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container .winter{
+    background-color: rgb(48, 61, 94);
+    color: #ddd;
+}
+
+.container .slide1 .text1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px; 
+    text-transform: uppercase;
+}
+
+.container .slide1 .text1 .next1{
+   background-color: rgb(24, 36, 80);
+   color: #fff;
+   padding: 30px;
+}
+
+
+.container .one h3{
+  font-size:2rem ;
+  color: rgb(207, 201, 201);
+  text-align: center;
+  margin-right: 990px;
+}
+
+.container .one h3::first-letter{
+    font-size: 3rem ;
+}
+
+.container .one p{
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 350px;
+}
+
+/* second */
+
+.container .slide2{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/234/270/344/cherry-blossom-wallpaper-preview.jpg");
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container .slide2 .text2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px; 
+    text-transform: uppercase;
+}
+
+.container .slide2 .text2 .next2{
+   background-color: rgb(236, 169, 233);
+   color: #fff;
+   padding: 30px;
+}
+
+
+.container .two h3{
+  font-size:2rem ;
+  color: rgb(234, 122, 219);
+  text-align: center;
+  margin-right: 990px;
+}
+
+.container .two h3::first-letter{
+    font-size: 3rem ;
+}
+
+.container .two p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 350px;
+}
+
+/* third */
+
+.container .slide3{
+    background-image: url("https://wallpaperaccess.com/full/681869.jpg");
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container .slide3 .text3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px; 
+    text-transform: uppercase;
+}
+
+.container .slide3 .text3 .next3{
+   background-color: rgb(117, 170, 78);
+   color: rgb(255, 255, 255);
+   padding: 30px;
+}
+
+
+.container .three h3{
+  font-size:2rem ;
+  color: rgb(54, 98, 23);
+  text-align: center;
+  margin-right: 990px;
+}
+
+.container .summer{
+    background-color: rgb(208, 197, 127);
+    color: rgb(0, 0, 0);
+}
+
+.container .three h3::first-letter{
+    font-size: 3rem ;
+}
+
+.container .three p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 350px;
+}
+
+/* fourth */
+
+.container .slide4{
+    background-image: url("https://wallpapercave.com/wp/wp2926927.jpg");
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container .slide4 .text4{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgb(251, 251, 251);
+    font-size: 25px; 
+    text-transform: uppercase;
+}
+
+.container .slide4 .text4 .next4{
+   background-color: rgb(255, 255, 255);
+   color: rgb(105, 37, 14);
+   padding: 30px;
+}
+
+.container .rainy{
+    background-color: rgb(182, 205, 194);
+    color: rgb(0, 0, 0);
+}
+
+
+.container .four h3{
+  font-size:2rem ;
+  color: rgb(190, 131, 28);
+  text-align: center;
+  margin-right: 990px;
+}
+
+.container .four h3::first-letter{
+    font-size: 3rem ;
+}
+
+.container .four p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 350px;
+}
+
+/* fifth */
+
+.container .slide5{
+    background-image: url("https://wallpapers.com/images/hd/autumn-red-maple-leaves-xtcfgd44l11kp74v.webp");
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container .slide5 .text5{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px; 
+    text-transform: uppercase;
+}
+
+.container .slide5 .text5 .next5{
+   background-color: brown;
+   color: #fff;
+   padding: 30px;
+}
+
+.container .slide5 .text5 .next6{
+   font-size: 1.5rem;
+   /* margin-bottom: 40px; */
+ }
+
+
+
+
+
+
 
